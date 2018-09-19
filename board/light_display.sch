@@ -1,0 +1,813 @@
+EESchema Schematic File Version 4
+LIBS:light_display-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L light_display-rescue:LED D1
+U 1 1 59D7C26E
+P 3450 1200
+F 0 "D1" H 3450 1300 50  0000 C CNN
+F 1 "LED" H 3450 1100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3450 1200 50  0001 C CNN
+F 3 "" H 3450 1200 50  0001 C CNN
+	1    3450 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R2
+U 1 1 59D7C2DF
+P 3450 750
+F 0 "R2" V 3530 750 50  0000 C CNN
+F 1 "90" V 3450 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3380 750 50  0001 C CNN
+F 3 "" H 3450 750 50  0001 C CNN
+	1    3450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L light_display-rescue:Screw_Terminal_1x03 J1
+U 1 1 59DA5A8F
+P 950 5350
+F 0 "J1" H 950 5700 50  0000 C TNN
+F 1 "Screw_Terminal_1x03" V 800 5350 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 950 5025 50  0001 C CNN
+F 3 "" H 925 5450 50  0001 C CNN
+	1    950  5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5350 1900 5350
+$Comp
+L light_display-rescue:LED D6
+U 1 1 59DA6619
+P 3850 1200
+F 0 "D6" H 3850 1300 50  0000 C CNN
+F 1 "LED" H 3850 1100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3850 1200 50  0001 C CNN
+F 3 "" H 3850 1200 50  0001 C CNN
+	1    3850 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R7
+U 1 1 59DA661F
+P 3850 750
+F 0 "R7" V 3930 750 50  0000 C CNN
+F 1 "90" V 3850 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 750 50  0001 C CNN
+F 3 "" H 3850 750 50  0001 C CNN
+	1    3850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 900  3850 1050
+$Comp
+L light_display-rescue:LED D11
+U 1 1 59DA6698
+P 4250 1200
+F 0 "D11" H 4250 1300 50  0000 C CNN
+F 1 "LED" H 4250 1100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4250 1200 50  0001 C CNN
+F 3 "" H 4250 1200 50  0001 C CNN
+	1    4250 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R12
+U 1 1 59DA669E
+P 4250 750
+F 0 "R12" V 4330 750 50  0000 C CNN
+F 1 "90" V 4250 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 750 50  0001 C CNN
+F 3 "" H 4250 750 50  0001 C CNN
+	1    4250 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 900  4250 1050
+$Comp
+L light_display-rescue:LED D16
+U 1 1 59DA66FD
+P 4650 1200
+F 0 "D16" H 4650 1300 50  0000 C CNN
+F 1 "LED" H 4650 1100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4650 1200 50  0001 C CNN
+F 3 "" H 4650 1200 50  0001 C CNN
+	1    4650 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R17
+U 1 1 59DA6703
+P 4650 750
+F 0 "R17" V 4730 750 50  0000 C CNN
+F 1 "90" V 4650 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 750 50  0001 C CNN
+F 3 "" H 4650 750 50  0001 C CNN
+	1    4650 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 900  4650 1050
+$Comp
+L light_display-rescue:LED D21
+U 1 1 59DA6778
+P 5050 1200
+F 0 "D21" H 5050 1300 50  0000 C CNN
+F 1 "LED" H 5050 1100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5050 1200 50  0001 C CNN
+F 3 "" H 5050 1200 50  0001 C CNN
+	1    5050 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R22
+U 1 1 59DA677E
+P 5050 750
+F 0 "R22" V 5130 750 50  0000 C CNN
+F 1 "90" V 5050 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4980 750 50  0001 C CNN
+F 3 "" H 5050 750 50  0001 C CNN
+	1    5050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 900  5050 1050
+$Comp
+L light_display-rescue:LED D2
+U 1 1 59DA69CE
+P 3450 2150
+F 0 "D2" H 3450 2250 50  0000 C CNN
+F 1 "LED" H 3450 2050 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3450 2150 50  0001 C CNN
+F 3 "" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R3
+U 1 1 59DA69D4
+P 3450 1700
+F 0 "R3" V 3530 1700 50  0000 C CNN
+F 1 "90" V 3450 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3380 1700 50  0001 C CNN
+F 3 "" H 3450 1700 50  0001 C CNN
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1850 3450 2000
+$Comp
+L light_display-rescue:LED D7
+U 1 1 59DA69DB
+P 3850 2150
+F 0 "D7" H 3850 2250 50  0000 C CNN
+F 1 "LED" H 3850 2050 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3850 2150 50  0001 C CNN
+F 3 "" H 3850 2150 50  0001 C CNN
+	1    3850 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R8
+U 1 1 59DA69E1
+P 3850 1700
+F 0 "R8" V 3930 1700 50  0000 C CNN
+F 1 "90" V 3850 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 1700 50  0001 C CNN
+F 3 "" H 3850 1700 50  0001 C CNN
+	1    3850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1850 3850 2000
+$Comp
+L light_display-rescue:LED D12
+U 1 1 59DA69E8
+P 4250 2150
+F 0 "D12" H 4250 2250 50  0000 C CNN
+F 1 "LED" H 4250 2050 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4250 2150 50  0001 C CNN
+F 3 "" H 4250 2150 50  0001 C CNN
+	1    4250 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R13
+U 1 1 59DA69EE
+P 4250 1700
+F 0 "R13" V 4330 1700 50  0000 C CNN
+F 1 "90" V 4250 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 1700 50  0001 C CNN
+F 3 "" H 4250 1700 50  0001 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1850 4250 2000
+$Comp
+L light_display-rescue:LED D17
+U 1 1 59DA69F5
+P 4650 2150
+F 0 "D17" H 4650 2250 50  0000 C CNN
+F 1 "LED" H 4650 2050 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R18
+U 1 1 59DA69FB
+P 4650 1700
+F 0 "R18" V 4730 1700 50  0000 C CNN
+F 1 "90" V 4650 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 1700 50  0001 C CNN
+F 3 "" H 4650 1700 50  0001 C CNN
+	1    4650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1850 4650 2000
+$Comp
+L light_display-rescue:LED D22
+U 1 1 59DA6A02
+P 5050 2150
+F 0 "D22" H 5050 2250 50  0000 C CNN
+F 1 "LED" H 5050 2050 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5050 2150 50  0001 C CNN
+F 3 "" H 5050 2150 50  0001 C CNN
+	1    5050 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R23
+U 1 1 59DA6A08
+P 5050 1700
+F 0 "R23" V 5130 1700 50  0000 C CNN
+F 1 "90" V 5050 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4980 1700 50  0001 C CNN
+F 3 "" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1850 5050 2000
+$Comp
+L light_display-rescue:LED D3
+U 1 1 59DA6F1C
+P 3450 3100
+F 0 "D3" H 3450 3200 50  0000 C CNN
+F 1 "LED" H 3450 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3450 3100 50  0001 C CNN
+F 3 "" H 3450 3100 50  0001 C CNN
+	1    3450 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R4
+U 1 1 59DA6F22
+P 3450 2650
+F 0 "R4" V 3530 2650 50  0000 C CNN
+F 1 "90" V 3450 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3380 2650 50  0001 C CNN
+F 3 "" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2800 3450 2950
+$Comp
+L light_display-rescue:LED D8
+U 1 1 59DA6F29
+P 3850 3100
+F 0 "D8" H 3850 3200 50  0000 C CNN
+F 1 "LED" H 3850 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3850 3100 50  0001 C CNN
+F 3 "" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R9
+U 1 1 59DA6F2F
+P 3850 2650
+F 0 "R9" V 3930 2650 50  0000 C CNN
+F 1 "90" V 3850 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 2650 50  0001 C CNN
+F 3 "" H 3850 2650 50  0001 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2800 3850 2950
+$Comp
+L light_display-rescue:LED D13
+U 1 1 59DA6F36
+P 4250 3100
+F 0 "D13" H 4250 3200 50  0000 C CNN
+F 1 "LED" H 4250 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4250 3100 50  0001 C CNN
+F 3 "" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R14
+U 1 1 59DA6F3C
+P 4250 2650
+F 0 "R14" V 4330 2650 50  0000 C CNN
+F 1 "90" V 4250 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 2650 50  0001 C CNN
+F 3 "" H 4250 2650 50  0001 C CNN
+	1    4250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2800 4250 2950
+$Comp
+L light_display-rescue:LED D18
+U 1 1 59DA6F43
+P 4650 3100
+F 0 "D18" H 4650 3200 50  0000 C CNN
+F 1 "LED" H 4650 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4650 3100 50  0001 C CNN
+F 3 "" H 4650 3100 50  0001 C CNN
+	1    4650 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R19
+U 1 1 59DA6F49
+P 4650 2650
+F 0 "R19" V 4730 2650 50  0000 C CNN
+F 1 "90" V 4650 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 2650 50  0001 C CNN
+F 3 "" H 4650 2650 50  0001 C CNN
+	1    4650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2800 4650 2950
+$Comp
+L light_display-rescue:LED D23
+U 1 1 59DA6F50
+P 5050 3100
+F 0 "D23" H 5050 3200 50  0000 C CNN
+F 1 "LED" H 5050 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5050 3100 50  0001 C CNN
+F 3 "" H 5050 3100 50  0001 C CNN
+	1    5050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R24
+U 1 1 59DA6F56
+P 5050 2650
+F 0 "R24" V 5130 2650 50  0000 C CNN
+F 1 "90" V 5050 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4980 2650 50  0001 C CNN
+F 3 "" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2800 5050 2950
+$Comp
+L light_display-rescue:LED D4
+U 1 1 59DA729D
+P 3450 4050
+F 0 "D4" H 3450 4150 50  0000 C CNN
+F 1 "LED" H 3450 3950 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3450 4050 50  0001 C CNN
+F 3 "" H 3450 4050 50  0001 C CNN
+	1    3450 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R5
+U 1 1 59DA72A3
+P 3450 3600
+F 0 "R5" V 3530 3600 50  0000 C CNN
+F 1 "90" V 3450 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3380 3600 50  0001 C CNN
+F 3 "" H 3450 3600 50  0001 C CNN
+	1    3450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3750 3450 3900
+$Comp
+L light_display-rescue:LED D9
+U 1 1 59DA72AA
+P 3850 4050
+F 0 "D9" H 3850 4150 50  0000 C CNN
+F 1 "LED" H 3850 3950 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3850 4050 50  0001 C CNN
+F 3 "" H 3850 4050 50  0001 C CNN
+	1    3850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R10
+U 1 1 59DA72B0
+P 3850 3600
+F 0 "R10" V 3930 3600 50  0000 C CNN
+F 1 "90" V 3850 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 3600 50  0001 C CNN
+F 3 "" H 3850 3600 50  0001 C CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3750 3850 3900
+$Comp
+L light_display-rescue:LED D14
+U 1 1 59DA72B7
+P 4250 4050
+F 0 "D14" H 4250 4150 50  0000 C CNN
+F 1 "LED" H 4250 3950 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4250 4050 50  0001 C CNN
+F 3 "" H 4250 4050 50  0001 C CNN
+	1    4250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R15
+U 1 1 59DA72BD
+P 4250 3600
+F 0 "R15" V 4330 3600 50  0000 C CNN
+F 1 "90" V 4250 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 3600 50  0001 C CNN
+F 3 "" H 4250 3600 50  0001 C CNN
+	1    4250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3750 4250 3900
+$Comp
+L light_display-rescue:LED D19
+U 1 1 59DA72C4
+P 4650 4050
+F 0 "D19" H 4650 4150 50  0000 C CNN
+F 1 "LED" H 4650 3950 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4650 4050 50  0001 C CNN
+F 3 "" H 4650 4050 50  0001 C CNN
+	1    4650 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R20
+U 1 1 59DA72CA
+P 4650 3600
+F 0 "R20" V 4730 3600 50  0000 C CNN
+F 1 "90" V 4650 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0001 C CNN
+	1    4650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3750 4650 3900
+$Comp
+L light_display-rescue:LED D24
+U 1 1 59DA72D1
+P 5050 4050
+F 0 "D24" H 5050 4150 50  0000 C CNN
+F 1 "LED" H 5050 3950 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5050 4050 50  0001 C CNN
+F 3 "" H 5050 4050 50  0001 C CNN
+	1    5050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R25
+U 1 1 59DA72D7
+P 5050 3600
+F 0 "R25" V 5130 3600 50  0000 C CNN
+F 1 "90" V 5050 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4980 3600 50  0001 C CNN
+F 3 "" H 5050 3600 50  0001 C CNN
+	1    5050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3750 5050 3900
+$Comp
+L light_display-rescue:LED D5
+U 1 1 59DA759E
+P 3450 5000
+F 0 "D5" H 3450 5100 50  0000 C CNN
+F 1 "LED" H 3450 4900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3450 5000 50  0001 C CNN
+F 3 "" H 3450 5000 50  0001 C CNN
+	1    3450 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R6
+U 1 1 59DA75A4
+P 3450 4550
+F 0 "R6" V 3530 4550 50  0000 C CNN
+F 1 "90" V 3450 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3380 4550 50  0001 C CNN
+F 3 "" H 3450 4550 50  0001 C CNN
+	1    3450 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4700 3450 4850
+$Comp
+L light_display-rescue:LED D10
+U 1 1 59DA75AB
+P 3850 5000
+F 0 "D10" H 3850 5100 50  0000 C CNN
+F 1 "LED" H 3850 4900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3850 5000 50  0001 C CNN
+F 3 "" H 3850 5000 50  0001 C CNN
+	1    3850 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R11
+U 1 1 59DA75B1
+P 3850 4550
+F 0 "R11" V 3930 4550 50  0000 C CNN
+F 1 "90" V 3850 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 4550 50  0001 C CNN
+F 3 "" H 3850 4550 50  0001 C CNN
+	1    3850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4700 3850 4850
+$Comp
+L light_display-rescue:LED D15
+U 1 1 59DA75B8
+P 4250 5000
+F 0 "D15" H 4250 5100 50  0000 C CNN
+F 1 "LED" H 4250 4900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4250 5000 50  0001 C CNN
+F 3 "" H 4250 5000 50  0001 C CNN
+	1    4250 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R16
+U 1 1 59DA75BE
+P 4250 4550
+F 0 "R16" V 4330 4550 50  0000 C CNN
+F 1 "90" V 4250 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 4550 50  0001 C CNN
+F 3 "" H 4250 4550 50  0001 C CNN
+	1    4250 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4700 4250 4850
+$Comp
+L light_display-rescue:LED D20
+U 1 1 59DA75C5
+P 4650 5000
+F 0 "D20" H 4650 5100 50  0000 C CNN
+F 1 "LED" H 4650 4900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 4650 5000 50  0001 C CNN
+F 3 "" H 4650 5000 50  0001 C CNN
+	1    4650 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R21
+U 1 1 59DA75CB
+P 4650 4550
+F 0 "R21" V 4730 4550 50  0000 C CNN
+F 1 "90" V 4650 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 4550 50  0001 C CNN
+F 3 "" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4700 4650 4850
+$Comp
+L light_display-rescue:LED D25
+U 1 1 59DA75D2
+P 5050 5000
+F 0 "D25" H 5050 5100 50  0000 C CNN
+F 1 "LED" H 5050 4900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5050 5000 50  0001 C CNN
+F 3 "" H 5050 5000 50  0001 C CNN
+	1    5050 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L light_display-rescue:R R26
+U 1 1 59DA75D8
+P 5050 4550
+F 0 "R26" V 5130 4550 50  0000 C CNN
+F 1 "90" V 5050 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4980 4550 50  0001 C CNN
+F 3 "" H 5050 4550 50  0001 C CNN
+	1    5050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4700 5050 4850
+Wire Wire Line
+	3050 600  3050 1550
+Wire Wire Line
+	1150 600  3050 600 
+Connection ~ 3450 600 
+Connection ~ 3850 600 
+Connection ~ 4250 600 
+Connection ~ 4650 600 
+Connection ~ 3450 1550
+Connection ~ 3850 1550
+Connection ~ 4250 1550
+Connection ~ 4650 1550
+Wire Wire Line
+	3050 2500 3450 2500
+Connection ~ 3450 2500
+Connection ~ 3850 2500
+Connection ~ 4250 2500
+Connection ~ 4650 2500
+Wire Wire Line
+	3050 3450 3450 3450
+Connection ~ 3050 2500
+Connection ~ 3450 3450
+Connection ~ 3850 3450
+Connection ~ 4250 3450
+Connection ~ 4650 3450
+Wire Wire Line
+	3050 4400 3450 4400
+Connection ~ 3050 3450
+Connection ~ 3450 4400
+Connection ~ 3850 4400
+Connection ~ 4250 4400
+Connection ~ 4650 4400
+Connection ~ 3450 5150
+Connection ~ 3850 5150
+Connection ~ 4250 5150
+Connection ~ 4650 5150
+Wire Wire Line
+	5500 4200 5050 4200
+Connection ~ 5050 5150
+Connection ~ 5050 4200
+Connection ~ 4650 4200
+Connection ~ 4250 4200
+Connection ~ 3850 4200
+Wire Wire Line
+	5500 3250 5050 3250
+Connection ~ 5500 4200
+Connection ~ 5050 3250
+Connection ~ 4650 3250
+Connection ~ 4250 3250
+Connection ~ 3850 3250
+Wire Wire Line
+	5500 2300 5050 2300
+Connection ~ 5500 3250
+Connection ~ 5050 2300
+Connection ~ 4650 2300
+Connection ~ 4250 2300
+Connection ~ 3850 2300
+Wire Wire Line
+	5500 1350 5050 1350
+Connection ~ 5500 2300
+Connection ~ 5050 1350
+Connection ~ 4650 1350
+Connection ~ 4250 1350
+Connection ~ 3850 1350
+Wire Wire Line
+	2200 5150 3450 5150
+Wire Wire Line
+	2200 5550 1150 5550
+Wire Wire Line
+	5500 5150 5500 4200
+Wire Wire Line
+	1150 5150 1150 600 
+Connection ~ 3050 600 
+Wire Wire Line
+	3050 1550 3450 1550
+Connection ~ 3050 1550
+Wire Wire Line
+	3450 900  3450 1050
+$Comp
+L light_display-rescue:Q_NPN_BEC Q1
+U 1 1 5B4FC5C9
+P 2100 5350
+F 0 "Q1" H 2300 5400 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 2300 5300 50  0000 L CNN
+F 2 "" H 2300 5450 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 600  3850 600 
+Wire Wire Line
+	3850 600  4250 600 
+Wire Wire Line
+	4250 600  4650 600 
+Wire Wire Line
+	4650 600  5050 600 
+Wire Wire Line
+	3450 1550 3850 1550
+Wire Wire Line
+	3850 1550 4250 1550
+Wire Wire Line
+	4250 1550 4650 1550
+Wire Wire Line
+	4650 1550 5050 1550
+Wire Wire Line
+	3450 2500 3850 2500
+Wire Wire Line
+	3850 2500 4250 2500
+Wire Wire Line
+	4250 2500 4650 2500
+Wire Wire Line
+	4650 2500 5050 2500
+Wire Wire Line
+	3050 2500 3050 3450
+Wire Wire Line
+	3450 3450 3850 3450
+Wire Wire Line
+	3850 3450 4250 3450
+Wire Wire Line
+	4250 3450 4650 3450
+Wire Wire Line
+	4650 3450 5050 3450
+Wire Wire Line
+	3050 3450 3050 4400
+Wire Wire Line
+	3450 4400 3850 4400
+Wire Wire Line
+	3850 4400 4250 4400
+Wire Wire Line
+	4250 4400 4650 4400
+Wire Wire Line
+	4650 4400 5050 4400
+Wire Wire Line
+	3450 5150 3850 5150
+Wire Wire Line
+	3850 5150 4250 5150
+Wire Wire Line
+	4250 5150 4650 5150
+Wire Wire Line
+	4650 5150 5050 5150
+Wire Wire Line
+	5050 5150 5500 5150
+Wire Wire Line
+	5050 4200 4650 4200
+Wire Wire Line
+	4650 4200 4250 4200
+Wire Wire Line
+	4250 4200 3850 4200
+Wire Wire Line
+	3850 4200 3450 4200
+Wire Wire Line
+	5500 4200 5500 3250
+Wire Wire Line
+	5050 3250 4650 3250
+Wire Wire Line
+	4650 3250 4250 3250
+Wire Wire Line
+	4250 3250 3850 3250
+Wire Wire Line
+	3850 3250 3450 3250
+Wire Wire Line
+	5500 3250 5500 2300
+Wire Wire Line
+	5050 2300 4650 2300
+Wire Wire Line
+	4650 2300 4250 2300
+Wire Wire Line
+	4250 2300 3850 2300
+Wire Wire Line
+	3850 2300 3450 2300
+Wire Wire Line
+	5500 2300 5500 1350
+Wire Wire Line
+	5050 1350 4650 1350
+Wire Wire Line
+	4650 1350 4250 1350
+Wire Wire Line
+	4250 1350 3850 1350
+Wire Wire Line
+	3850 1350 3450 1350
+Wire Wire Line
+	3050 600  3450 600 
+Wire Wire Line
+	3050 1550 3050 2500
+$EndSCHEMATC
